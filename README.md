@@ -36,7 +36,7 @@ It is hard to extract meaning from the one-hot vectors. The output contains most
 
 Some ambiguities faced are:
 
-Lexical Ambiguity: Words which have more than one meaning.\n
+Lexical Ambiguity: Words which have more than one meaning.<br>
 Syntactic Ambiguity: Grammars used in sentences are ambiguous, and also more than one parsed tree is correct for a sentence given grammar.
-Semantic Ambiguity: More than one semantic interpretation for a sentence.
+Semantic Ambiguity: More than one semantic interpretation for a sentence.<br>
 Pragmatic Ambiguity: It arises when the statement is not specific, and the context does not provide the information needed to clarify the statement.
