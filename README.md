@@ -1,6 +1,6 @@
 # NLP-Interview-Questions Basic
 ### What are the differences between TF-IDF and TF? some advantages of using TF-IDF over TF?
-TF-IDF: Term Frequency-Inverse Document Frequency;
+TF-IDF: Term Frequency-Inverse Document Frequency; <br>
 TF: Term Frequency;
 
 Difference:
@@ -36,7 +36,14 @@ It is hard to extract meaning from the one-hot vectors. The output contains most
 
 Some ambiguities faced are:
 
-Lexical Ambiguity: Words which have more than one meaning.<br>
-Syntactic Ambiguity: Grammars used in sentences are ambiguous, and also more than one parsed tree is correct for a sentence given grammar.
-Semantic Ambiguity: More than one semantic interpretation for a sentence.<br>
-Pragmatic Ambiguity: It arises when the statement is not specific, and the context does not provide the information needed to clarify the statement.
+<b>Lexical Ambiguity</b>: Words which have more than one meaning.<br>
+<b>Syntactic Ambiguity</b>: Grammars used in sentences are ambiguous, and also more than one parsed tree is correct for a sentence given grammar.
+<b>Semantic Ambiguity</b>: More than one semantic interpretation for a sentence.<br>
+<b>Pragmatic Ambiguity</b>: It arises when the statement is not specific, and the context does not provide the information needed to clarify the statement.
+
+
+### What is the use of PoS (Part of Speech) tagging?
+
+PoS tagging is used to classify each word into its part of speech.<br>
+Parts of speech can be used to find grammatical, or lexical patterns without specifying the word used. <br>
+In English especially, the same word can be different parts of speech, so hence, PoS tagging can be helpful to differentiate between them.
